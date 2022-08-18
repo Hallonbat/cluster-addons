@@ -13,4 +13,4 @@ metadata:
     app.kubernetes.io/version: "v1.9.0"
     app.kubernetes.io/managed-by: Helm
     helm.sh/chart: cert-manager-v1.9.0
-  type: NodePort
+  type: ClusterIP
