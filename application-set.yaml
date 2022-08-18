@@ -7,7 +7,7 @@ spec:
   generators:
   - git:
       repoURL: https://github.com/polinchw/cluster-addons.git
-      revision: smaller
+      revision: kustomize
       directories:
       - path: addons/*
   template:
@@ -17,7 +17,7 @@ spec:
       project: default
       source:
         repoURL: https://github.com/polinchw/cluster-addons.git
-        targetRevision: smaller
+        targetRevision: kustomize
         path: '{{path}}/overlays/prod'
       destination:
         server: https://kubernetes.default.svc
