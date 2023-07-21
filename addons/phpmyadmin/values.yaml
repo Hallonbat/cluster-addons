@@ -53,7 +53,7 @@ extraDeploy: []
 image:
   registry: docker.io
   repository: bitnami/phpmyadmin
-  tag: 5.2.0-debian-11-r67
+  tag: 5.2.1-debian-11-r50
   digest: ""
   ## Specify a imagePullPolicy
   ##
