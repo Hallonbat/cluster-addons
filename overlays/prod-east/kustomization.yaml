@@ -4,4 +4,4 @@ nameSuffix: -prod-east
 bases:
   - ../../base
 patches:
-- application-set.yaml
+- path: application-set.yaml
