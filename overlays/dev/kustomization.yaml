@@ -4,4 +4,4 @@ nameSuffix: -dev
 bases:
   - ../../base
 patches:
-- application-set.yaml
+- path: application-set.yaml
